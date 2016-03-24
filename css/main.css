@@ -1,0 +1,154 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:200);
+
+body {
+    overflow-y:hidden;
+}
+
+#music-name {
+	position: relative;
+	font-size: 20px;
+}
+
+#player {
+	position: absolute;
+	left: -800px; top: -800px;
+	z-index: -99;
+}
+
+#song {
+	position: relative;
+    box-sizing: border-box;
+	float: right;
+    padding: 3px;
+	font-size: 20px;
+	text-align: center;
+	margin-right: 20px;
+	margin-top: 20px;
+	width: 250px;
+	height: 60px;
+	color: rgb(255,255,255);
+	font-family: 'Raleway', sans-serif;
+	background-color: rgba(53, 53, 53, 0.75);
+	box-shadow: 0.5px 0.5px 15px #000000;
+}
+
+#servername {
+	position: absolute;
+    padding: 3px;
+	font-size: 50px;
+	margin-left: 16px;
+	margin-top: 7px;
+	color: rgb(255,255,255);
+	font-family: 'Raleway', sans-serif;
+}
+
+
+#content {
+	position: absolute;
+    box-sizing: border-box;
+	margin: 0 0 0 -47.5%;
+	bottom: 48%;
+	left: 50%;
+	width: 95%;
+	height: 25px;
+	color: rgb(255,255,255);
+	background-color: rgba(53, 53, 53, 0.75);
+	box-shadow: 0.5px 0.5px 15px #000000;
+}
+
+#progress {
+	position: absolute;
+    box-sizing: border-box;
+	height: 100%;
+}
+
+#content-text {
+	position: absolute;
+    box-sizing: border-box;
+    padding: 15px;
+	font-size: 20px;
+	text-align: center;
+	margin: 0 0 0 -12.5%;
+	bottom: 33%;
+	left: 50%;
+	width: 25%;
+	height: 80px;
+	color: rgb(255,255,255);
+	font-family: 'Raleway', sans-serif;
+	background-color: rgba(53, 53, 53, 0.75);
+	box-shadow: 0.5px 0.5px 15px #000000;
+}
+
+#left-box-custom {
+	position: absolute;
+    box-sizing: border-box;
+    padding: 15px;
+	font-size: 14px;
+	bottom: 5%;
+	float: left;
+	left: 2.5%;
+	width: 30%;
+	height: 40%;
+	color: rgb(255,255,255);
+	font-family: 'Raleway', sans-serif;
+	background-color: rgba(53, 53, 53, 0.75);
+	box-shadow: 0.5px 0.5px 15px #000000;
+}
+
+#right-box-custom {
+	position: absolute;
+    box-sizing: border-box;
+    padding: 15px;
+	font-size: 14px;
+	bottom: 5%;
+	float: right;
+	right: 2.5%;
+	width: 30%;
+	height: 40%;
+	color: rgb(255,255,255);
+	font-family: 'Raleway', sans-serif;
+	background-color: rgba(53, 53, 53, 0.75);
+	box-shadow: 0.5px 0.5px 15px #000000;
+}
+
+#steampic {
+	position: absolute;
+    box-sizing: border-box;
+    padding: 15px;
+	font-size: 20px;
+	text-align: center;
+	margin: 0 0 0 -92px;
+	bottom: 65%;
+	left: 50%;
+	width: 184px;
+	height: 184px;
+	color: rgb(255,255,255);
+	font-family: 'Raleway', sans-serif;
+	box-shadow: 0.5px 0.5px 15px #000000;
+	border-radius: 50%;
+	background-size: cover;
+	overflow:hidden;
+	z-index: 1;
+}
+
+#message {
+	position: absolute;
+    box-sizing: border-box;
+    padding: 5px;
+	font-size: 20px;
+	text-align: center;
+	margin: 0 0 0 -200px;
+	bottom: 55%;
+	left: 50%;
+	width: 400px;
+	height: 40px;
+	color: rgb(255,255,255);
+	font-family: 'Raleway', sans-serif;
+	background-color: rgba(53, 53, 53, 0.75);
+	box-shadow: 0.5px 0.5px 15px #000000;
+	z-index: 0;
+}
+
+#header {
+	font-size: 20px;
+}
